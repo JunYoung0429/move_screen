@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    position: fixed;
+    overflow: hidden;
+}
+span{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+div{
+    width: 100vw;
+    height: 100vh;
+}
+#window1{background: forestgreen; text-align: center; line-height: 100vh;}
+#window2{background: goldenrod; text-align: center; line-height: 100vh;}
+#window3{background: palegreen; text-align: center; line-height: 100vh;}
+#window4{background: pink; text-align: center; line-height: 100vh;}
+#window5{background: royalblue; text-align: center; line-height: 100vh;}

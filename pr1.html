@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="pr2.css">  
+    <meta charset="utf-8">
+    <title>연습</title>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script> 
+</head>
+<body>
+    <header class="header">
+        <span id="bt01">menu1</span>
+        <span id="bt02">menu2</span>
+        <span id="bt03">menu3</span>
+        <span id="bt04">menu4</span>
+    </header>
+    <section>
+        <div id="window1">1</div>
+        <div id="window2">2</div>
+        <div id="window3">3</div>
+        <div id="window4">4</div>
+    </section>
+    <script>
+    $(document).ready(function(){
+        $('#bt01').click(function(){
+            $('body, html').animate({
+                scrollTop:$('#window2').offset().top
+            },800);
+        })
+        $('#bt02').click(function(){
+            $('body, html').animate({
+                scrollTop:$('#window2').offset().top
+            },800);
+        })
+        $('#bt03').click(function(){
+            $('body, html').animate({
+                scrollTop:$('#window3').offset().top
+            },800);
+        })
+        $('#bt04').click(function(){
+            $('body, html').animate({
+                scrollTop:$('#window4').offset().top
+            },800);
+        })
+    });
+    </script>
+</body>
+</html>
